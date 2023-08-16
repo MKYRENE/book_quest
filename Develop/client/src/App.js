@@ -4,7 +4,7 @@ import SearchBooks from './pages/SearchBooks';
 import SavedBooks from './pages/SavedBooks';
 import Navbar from './components/Navbar';
 import { ApolloProvider } from '@apollo/client';
-import client from './client'; // Your Apollo Client configuration
+import client from './utils/client'; // Your Apollo Client configuration
 
 function App() {
   return (
